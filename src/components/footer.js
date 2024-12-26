@@ -10,10 +10,10 @@ export default function Footer() {
             <div className="container">
                 <div className="row mb-4">
                     {/* Footer Logo and Description */}
-                    <div className="col-lg-3 col-md-6">
+                    <div className="col-lg-3 col-md-12 mb-4">
                         <div className="textwidget">
                             <div className="FooterLogo">
-                                scoop<span>Coupons</span>
+                                Scoop<span>Coupons</span>
                             </div>
                             <p>
                                 Hello World! ScoopCoupons is here to bring you the biggest database of coupons and deals. So, shop the top brands and get the best price on all the products and services. Stay Tuned!
@@ -22,29 +22,29 @@ export default function Footer() {
                     </div>
     
                     {/* Site Links */}
-                    <div className="col-lg-3 col-md-6 col-sm-10 footerbox mx-auto">
+                    <div className="col-lg-3 col-md-6 footerbox mb-3">
                         <h4>SITE LINKS</h4>
-                        <a href="#"><i className="fa fa-angle-right" aria-hidden="true"></i> About Us</a><br />
-                        <a href="#"><i className="fa fa-angle-right" aria-hidden="true"></i> Amazon Disclosure</a><br />
-                        <a href="#"><i className="fa fa-angle-right" aria-hidden="true"></i> Affiliate Disclosure</a>
+                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg> About Us</a><br />
+                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg> Amazon Disclosure</a><br />
+                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg> Affiliate Disclosure</a>
                     </div>
     
                     {/* Get Help Links */}
-                    <div className="col-lg-3 col-md-6 col-sm-10 footerbox mx-auto">
+                    <div className="col-lg-3 col-md-6 footerbox mb-3">
                         <h4>GET HELP</h4>
-                        <a href="#"><i className="fa fa-angle-right" aria-hidden="true"></i> How to Use Coupon</a><br />
-                        <a href="#"><i className="fa fa-angle-right" aria-hidden="true"></i> Discount Guide</a><br />
-                        <a href="#"><i className="fa fa-angle-right" aria-hidden="true"></i> Contact Us</a>
+                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg> How to Use Coupon</a><br />
+                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg> Discount Guide</a><br />
+                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg> Contact Us</a>
                     </div>
     
                     {/* Keep Updated Section */}
-                    <div className="col-lg-3 col-md-12 col-sm-10 footerbox update mx-auto">
+                    <div className="col-lg-3 col-md-12 footerbox update mb-3">
                         <h4>KEEP UPDATED</h4>
                         <form className="d-flex">
                             <div className="footerInput">
                                 <span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" className="bi bi-envelope" viewBox="0 0 16 16">
-                                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path d="M64 112c-8.8 0-16 7.2-16 16l0 22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1l0-22.1c0-8.8-7.2-16-16-16L64 112zM48 212.2L48 384c0 8.8 7.2 16 16 16l384 0c8.8 0 16-7.2 16-16l0-171.8L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64l384 0c35.3 0 64 28.7 64 64l0 256c0 35.3-28.7 64-64 64L64 448c-35.3 0-64-28.7-64-64L0 128z"/>
                                     </svg>
                                 </span>
                                 <input type="email" placeholder="Your Email" required />
