@@ -113,7 +113,7 @@ export default function Header() {
                 aria-label="Search"
                 value={searchTerm}
                 onChange={handleSearchChange}
-                className="form-control me-2"
+                className="form-control"
               />
               <button id="searchbtn" type="submit" className="btn btn-outline-success">
                 SEARCH

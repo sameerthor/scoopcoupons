@@ -370,6 +370,7 @@ button .navbar-toggler-icon{
   border-right: none;
   color: #5f5f5f;
   padding-left: 1rem;
+  box-shadow: none;
 }
 @media(max-width:991px){
   #form-control{

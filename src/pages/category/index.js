@@ -32,12 +32,13 @@ export default function CategoriesPage({ categories, merchants }) {
                                             <div className="category-title">
                                                 <Link href={`https://scoopcoupons.com/coupon-category/${item.slug}`}>
                                                     {decode(item.name)}
+                                                    <span>
+                                                        {item.offers.code > 0 && `${item.offers.code} Coupons`}
+                                                        {item.offers.code > 0 && item.offers.sale > 0 && " | "}
+                                                        {item.offers.sale > 0 && `${item.offers.sale} Deals`}
+                                                    </span>
                                                 </Link>
-                                                <span>
-                                                    {item.offers.code > 0 && `${item.offers.code} Coupons`}
-                                                    {item.offers.code > 0 && item.offers.sale > 0 && " | "}
-                                                    {item.offers.sale > 0 && `${item.offers.sale} Deals`}
-                                                </span>
+                                               
                                             </div>
                                         </div>
                                     </div>
