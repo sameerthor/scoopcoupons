@@ -95,11 +95,18 @@ export default function Header() {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span className="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon">
+                  <img alt="menubar" src="https://scoopcoupons.com/wp-content/uploads/2024/01/menu_bar.png" width="19" height="19"/>
+              </span>
             </button>
             <Link href="/" className="navbar-brand">
               Scoop<span>Coupons</span>
             </Link>
+            <button className="showInputBtn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/>
+              </svg>
+            </button>
             <form
               id="searchform"
               className="d-flex ms-auto position-relative"

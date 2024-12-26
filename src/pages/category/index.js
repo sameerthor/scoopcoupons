@@ -15,11 +15,11 @@ export default function CategoriesPage({ categories, merchants }) {
             />
             <section className="allCategories">
                 <div className="container">
-                    <div className="row">
+                    <div className="row allCatBox">
                         <div className="col-lg-9 p-0">
                             <div className="row row-cols-2">
                                 {categories.map((item, index) => (
-                                    <div className="col-lg-3 col-md-4 col-sm-6 category-box" key={index}>
+                                    <div className="col-md-3 col-sm-6 category-box" key={index}>
                                         <div className="category-item">
                                             <div className="cat-img">
                                                 <Link href={`/category/${item.slug}`}>

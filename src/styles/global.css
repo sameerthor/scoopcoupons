@@ -379,7 +379,7 @@ button .navbar-toggler-icon{
 @media(max-width:767px){
   #searchform{
       margin: auto;
-      width: 75%;
+      width: 100%;
   }
   .d-flex button{
       width: 50%;
@@ -680,4 +680,28 @@ fill: #fff;
 .footerbox.update{
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
   padding-bottom: .5rem;
+}
+.showInputBtn{
+  padding: .3rem .8rem;
+  border: none;
+  outline: none;
+  background-color: #00979d;
+}
+@media(min-width:768px){
+  .showInputBtn{
+    display: none;
+  }
+}
+@media(max-width:768px){
+  .headerInput{
+    width: 100%;
+  }
+}
+
+.showInputBtn svg{
+  width: 14px;
+  fill: #fff;
+}
+button .navbar-toggler-icon{
+  background-image: none;
 }
