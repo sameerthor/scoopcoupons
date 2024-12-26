@@ -140,18 +140,18 @@ export default function Header() {
                         onClick={() => handleSelectResult(result.url)} // Redirect on click
                         style={{ cursor: "pointer" }}
                       >
-                        <div className="d-flex align-items-center">
-                          <img
-                            src={src}
-                            alt={alt}
-                            width={width}
-                            height={height}
-                            className="me-2"
-                          />
+                        <div className="image">
+                            <img
+                              src={src}
+                              alt={alt}
+                              width={width}
+                              height={height}
+                              className="me-2"
+                            />
+                          </div>
                           <div className="content">
                             <div className="title">{result.title}</div>
                           </div>
-                        </div>
                       </div>
                     );
                   })}

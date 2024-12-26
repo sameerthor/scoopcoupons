@@ -335,7 +335,6 @@ font-family: 'Montserrat', sans-serif;
 .pageHeader .nav-item .nav-link:hover{
   color: #feb043;
 }
-/* ======== */
 /* **********************NAVBAR****************************** */
 
 
@@ -357,9 +356,7 @@ font-family: 'Montserrat', sans-serif;
 button .navbar-toggler-icon{
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(6,115,119, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
-.navbar-toggler{
-  outline: 1px solid #067377;  
-}
+
 #form-control{
   font-weight: 400;
   width: 20rem;
@@ -396,7 +393,7 @@ button .navbar-toggler-icon{
   border-radius: 1px;
   border-left: none;
   letter-spacing: 1px;
-  font-weight: bold;
+  font-weight: 600;
   font-size: .8rem;
 }
 .navbar .navbar-nav .nav-link{
@@ -582,6 +579,7 @@ fill: #fff;
   padding: 0;
   border-radius: 0;
   border: none;
+  box-shadow: none;
 }
 .nav-box .navbar-toggler-icon{
   width: 1.2rem;
@@ -615,6 +613,10 @@ fill: #fff;
   position: relative;
   padding: 10px;
   align-items: center;
+  font-weight: 500;
+}
+#searchform .result:hover{
+  text-decoration: underline;
 }
 #searchform .result a {
   display: block;

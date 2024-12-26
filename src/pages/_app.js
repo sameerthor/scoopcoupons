@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import "@/styles/global.css";
+import "@/styles/montserrat.css";
 import Head from "next/head";
 import { useEffect } from "react"
 import Header from "@/components/header";
