@@ -3,6 +3,8 @@ import Link from "next/link";
 import "@/styles/a-z-store.css";
 import { NextSeo } from "next-seo";
 import moment from "moment";
+import { decode } from "he";
+
 export default function Stores({ initialStoreData }) {
     const [storeData, setStoreData] = useState(initialStoreData);
     const [pageNumbers, setPageNumbers] = useState(
@@ -100,7 +102,7 @@ export default function Stores({ initialStoreData }) {
                                         {storeData[c].map((item, index) => (
                                             <li key={index}>
                                                 <Link href={`https://scoopcoupons.com/store/${item.slug}`}>
-                                                    {item.name}
+                                                    {decode(item.name)}
                                                     <span>{calculateCoupons(item.offer_count)}</span>
                                                 </Link>
                                             </li>

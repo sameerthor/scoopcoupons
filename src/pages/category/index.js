@@ -3,6 +3,8 @@ import Link from "next/link";
 import "@/styles/store-cat.css";
 import moment from "moment";
 import { NextSeo } from "next-seo";
+import { decode } from "he";
+
 
 export default function CategoriesPage({ categories, merchants }) {
     return (
@@ -23,13 +25,13 @@ export default function CategoriesPage({ categories, merchants }) {
                                                 <Link href={`/category/${item.slug}`}>
                                                     <img
                                                         src={item.image || './images/application.png'}
-                                                        alt={item.name}
+                                                        alt={decode(item.name)}
                                                     />
                                                 </Link>
                                             </div>
                                             <div className="category-title">
                                                 <Link href={`https://scoopcoupons.com/coupon-category/${item.slug}`}>
-                                                    {item.name}
+                                                    {decode(item.name)}
                                                 </Link>
                                                 <span>
                                                     {item.offers.code > 0 && `${item.offers.code} Coupons`}
@@ -77,7 +79,7 @@ export default function CategoriesPage({ categories, merchants }) {
                                         {merchants.map((merchant, index) => (
                                             <li key={index}>
                                                 <Link href={`https://scoopcoupons.com/store/${merchant.slug}`}>
-                                                    {merchant.name}
+                                                    {decode(merchant.name)}
                                                 </Link>
                                             </li>
                                         ))}
