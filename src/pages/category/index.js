@@ -99,7 +99,7 @@ export async function getStaticProps() {
     const categories = categoryData.data;
 
     // Fetch merchants for all letters in parallel
-    const letters = "ab".split("");
+    const letters = "a".split("");
     const merchantPromises = letters.map((letter) =>
         fetch(`https://scoopcoupons.com/wp-json/custom/v1/get-stores`, {
             method: 'POST',
