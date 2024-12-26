@@ -169,12 +169,12 @@ export default function Header() {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link href="/store" className="nav-link">
+                  <Link href="/stores" className="nav-link">
                     STORES
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link href="/categories" className="nav-link">
+                  <Link href="/category" className="nav-link">
                     CATEGORIES
                   </Link>
                 </li>

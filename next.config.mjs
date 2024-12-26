@@ -28,13 +28,7 @@ const nextConfig = {
     }
 
     return config;
-  },
-  rewrites: async () => [
-    {
-      source: '/image-sitemap.xml',
-      destination: '/sitemap',
-    }
-  ]
+  }
 };
 
 export default nextConfig;

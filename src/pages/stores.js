@@ -161,6 +161,6 @@ export async function getStaticProps() {
         props: {
             initialStoreData: storeData,
         },
-        revalidate: 10,
+        revalidate: 60,
     };
 }
