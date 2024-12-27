@@ -109,7 +109,7 @@ export default function Header() {
             </button>
             <form
               id="searchform"
-              className="d-flex ms-auto position-relative"
+              className="ms-auto position-relative searchform"
               role="search"
               onSubmit={(e) => e.preventDefault()} // Prevent form submission
             >
