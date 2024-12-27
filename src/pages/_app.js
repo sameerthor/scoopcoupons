@@ -5,7 +5,6 @@ import Head from "next/head";
 import { useEffect } from "react"
 import Header from "@/components/header";
 import Footer from "@/components/footer";
-import Script from 'next/script';
 
 export default function App({ Component, pageProps }) {
   useEffect(() => {

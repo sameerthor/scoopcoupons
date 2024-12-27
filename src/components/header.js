@@ -176,17 +176,17 @@ export default function Header() {
                 style={{ "--bs-scroll-height": "100px" }}
               >
                 <li className="nav-item">
-                  <Link href="/" className="nav-link">
+                  <Link href="https://scoopcoupons.com/" className="nav-link">
                     HOME
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link href="/stores" className="nav-link">
+                  <Link href="https://scoopcoupons.com/stores" className="nav-link">
                     STORES
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link href="/category" className="nav-link">
+                  <Link href="https://scoopcoupons.com/category" className="nav-link">
                     CATEGORIES
                   </Link>
                 </li>
