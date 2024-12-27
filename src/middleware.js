@@ -19,5 +19,5 @@ export function middleware(request) {
 }
 
 export const config = {
-    matcher: ['/*'], // Apply middleware to all routes
+    matcher: '/:path*', // Apply middleware to all routes
 };
