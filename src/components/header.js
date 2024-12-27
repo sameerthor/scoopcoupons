@@ -99,7 +99,7 @@ export default function Header() {
                   <img alt="menubar" src="https://scoopcoupons.com/wp-content/uploads/2024/01/menu_bar.png" width="19" height="19"/>
               </span>
             </button>
-            <Link href="/" className="navbar-brand">
+            <Link href="https://scoopcoupons.com/" className="navbar-brand">
               Scoop<span>Coupons</span>
             </Link>
             <button className="showInputBtn">
@@ -202,17 +202,17 @@ export default function Header() {
                   </a>
                   <ul className="dropdown-menu">
                     <li>
-                      <Link href="/allblogs" className="dropdown-item">
+                      <Link href="https://scoopcoupons.com/allblogs" className="dropdown-item">
                         BLOGS
                       </Link>
                     </li>
                     <li>
-                      <Link href="/blogs/cbd-oils" className="dropdown-item">
+                      <Link href="https://scoopcoupons.com/blogs/cbd-oils" className="dropdown-item">
                         CBD Oils
                       </Link>
                     </li>
                     <li>
-                      <Link href="/blogs/books" className="dropdown-item">
+                      <Link href="https://scoopcoupons.com/blogs/books" className="dropdown-item">
                         Books
                       </Link>
                     </li>
