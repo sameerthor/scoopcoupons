@@ -1,20 +1,18 @@
 /* ========================Nabbar===================== */
-*{
-  font-family: 'Montserrat', sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body {
+  font-family: 'Helvetica', sans-serif;
 }
 body{
   min-width: 345px;
 }
 /* responsive web template */
 *{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 a{
   text-decoration: none;
 }
@@ -712,4 +710,9 @@ button .navbar-toggler-icon{
   #searchform{
     display: none;
   }
+}
+.update form button{
+  background-color: #067377;
+  color: #fff;
+  font-weight: 500;
 }
