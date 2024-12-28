@@ -85,7 +85,7 @@ export default function Header() {
     <header>
       <div className="container-fluid nav-box">
         <nav className="container navbar navbar-expand-lg bg-body-light" id="top">
-          <div className="container-fluid">
+          <div className="container-fluid p-0">
             <button
               className="navbar-toggler mr-auto"
               type="button"
