@@ -864,8 +864,3 @@
     background-color: #2ec4b6;
     color: #fff;
 }
-@media(max-width: 991px){
-    .allCatBox{
-        flex-direction: column-reverse;
-    }
-}
