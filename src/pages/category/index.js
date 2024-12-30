@@ -22,7 +22,7 @@ export default function CategoriesPage({ categories, merchants }) {
                                     <div className="col-md-3 col-sm-6 category-box" key={index}>
                                         <div className="category-item">
                                             <div className="cat-img">
-                                                <Link href={`/category/${item.slug}`}>
+                                                <Link href={`https://scoopcoupons.com/coupon-category/${item.slug}`}>
                                                     <img
                                                         src={'https://scoopcoupons.com/wp-content/uploads/category/'+item.slug+'.png'}
                                                         alt={decode(item.name)}
