@@ -43,9 +43,8 @@ export default function Header() {
     try {
       const apiUrl = `https://scoopcoupons.com/wp-admin/admin-ajax.php`;
       const params = {
-        ajax_sc: "t",
+        ajax_sc: term,
         action: "wpcoupon_coupon_ajax_search",
-        s: term,
         _: Date.now(),
       };
 
@@ -125,6 +124,7 @@ export default function Header() {
                   value={searchTerm}
                   onChange={handleSearchChange}
                   className="form-control"
+                  autoComplete="disabled"
                 />
               </div>
               <button id="searchbtn" type="submit" className="btn btn-outline-success">
