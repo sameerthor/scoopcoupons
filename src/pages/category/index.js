@@ -24,7 +24,7 @@ export default function CategoriesPage({ categories, merchants }) {
                                             <div className="cat-img">
                                                 <Link href={`/category/${item.slug}`}>
                                                     <img
-                                                        src={item.image || './images/application.png'}
+                                                        src={'https://scoopcoupons.com/wp-content/uploads/category/'+item.slug+'.png'}
                                                         alt={decode(item.name)}
                                                     />
                                                 </Link>
