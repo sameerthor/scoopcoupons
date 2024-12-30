@@ -122,9 +122,16 @@ font-family: 'Montserrat', sans-serif;
   }
   .collapse .nav-item .nav-link{
       color: #fff;
-      margin: 0 .5rem;
       font-weight: 500;
       letter-spacing: .5px;
+  }
+}
+.collapse .nav-item .nav-link{
+  margin: 0 .5rem;
+}
+@media(min-width: 991px) and (max-width:1050px){
+  .collapse .nav-item .nav-link{
+    margin: 0;
   }
 }
 .navbarSearch{
@@ -568,7 +575,7 @@ fill: #fff;
 }
 
 .nav-box .container{
-  max-width: 1450px;
+  max-width: 1500px;
 }
 .nav-box .navbar-collapse {
   flex-grow: 0;
